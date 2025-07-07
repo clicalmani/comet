@@ -1,16 +1,16 @@
 <?php 
 namespace App\Models;
 
-use Clicalmani\Database\Factory\Models\Elegant;
+use Clicalmani\Foundation\Acme\Model;
 
-class User extends Elegant
+class User extends Model
 {
     /**
      * Model database table 
      *
      * @var string $table Table name
      */
-    protected $table = "user";
+    protected $table = "users";
 
     /**
      * Model entity
@@ -25,7 +25,7 @@ class User extends Elegant
      *
      * @var string|array $primary_keys Table primary key.
      */
-    protected $primaryKey = "user_id";
+    protected $primaryKey = "id";
 
     /**
      * Constructor 

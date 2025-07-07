@@ -1,9 +1,9 @@
 <?php 
 namespace App\Models;
 
-use Clicalmani\Foundation\Acme\Model as Elegant;
+use Clicalmani\Foundation\Acme\Model;
 
-class AuthAccess extends Elegant
+class AuthAccess extends Model
 {
     /**
      * Model database table 
